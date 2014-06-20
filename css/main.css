@@ -107,6 +107,7 @@ p,
 ul,
 ol,
 dl {
+	margin-top: 12px;
 	margin-bottom: 12px;
 	font-size: 16px;
 	line-height: 24px;
@@ -124,6 +125,28 @@ h6 {
 
 }
 
+h3.menu-heading {
+	font-size: 24px;
+}
+
+#link-menu {
+	width: 80%;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold, italic;
+	font-size: 25px;
+	line-height: 18px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding-top: 20px;
+}
+
+.menu-heading-salthouse
+.menu-heading {
+	padding-top: 12px;
+	letter-spacing: .2em;
+}
 .menu-item {
 	overflow: hidden;
 	position: relative;
@@ -134,7 +157,7 @@ h6 {
 }
 .menu-list {
 	padding: 24px;
-	background-color: rgba(255,239,195,0.65);
+	background-color: rgba(255,236,199,0.25);
 }
 
 .menu-item:first-child {
@@ -150,12 +173,19 @@ h6 {
 	line-height: 18px;
 	text-transform: uppercase;
 	letter-spacing: .2em;
+	margin-top: 10px;
 	margin-bottom: 0;
 }
 
 .dish-desc {
 	width: 80%;
 	margin-bottom: 0;
+	font-style: italic;
+	font-size: 13.3px;
+	line-height: 18px;
+}
+
+.about-us-content {
 	font-style: italic;
 	font-size: 13.3px;
 	line-height: 18px;
@@ -207,6 +237,12 @@ html {
 	background-size: cover;
 	position: relative;
 	}
+	
+.cow-nav a,
+.pig-nav a {
+	color: #720000;
+}
+
 .pig {
 	padding-top: 12%;
 }
@@ -296,6 +332,7 @@ html {
 		    top: 28%;
 		    left: 18%;
 }
+
 
 /* ==========================================================================
    Helper classes
