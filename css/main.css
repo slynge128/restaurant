@@ -97,21 +97,205 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html,
+body {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+p,
+ul,
+ol,
+dl {
+	margin-bottom: 12px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 12px;
+	font-size: 16px;
+	line-height: 24px;
+
+}
+
+.menu-item {
+	overflow: hidden;
+	position: relative;
+	border-top: 1px solid #000;
+	padding-top: 23px;
+	margin-top: 24px;	
+	
+}
+.menu-list {
+	padding: 24px;
+	background-color: rgba(255,239,195,0.65);
+}
+
+.menu-item:first-child {
+	border-top: none;
+	padding-top: 0;
+	margin-top: 0;
+}
+.dish-heading {
+	width: 80%;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin-bottom: 0;
+}
+
+.dish-desc {
+	width: 80%;
+	margin-bottom: 0;
+	font-style: italic;
+	font-size: 13.3px;
+	line-height: 18px;
+}
+.dish-price {
+	position: absolute;
+	top: 23px;
+	right: 24px;
+	width: 10%;
+	text-align: right;
+}
+
+.menu-item:first-child .dish-price {
+	top: 0;
+}
 
 
 
+html {
+	background: url(../img/lightpaperfibers.jpg) left top repeat;
+}
+
+@media only screen and (min-width: 959px) {
+	.page {
+		width: 1014px;
+	}
+}
 
 
 
+.nav, .nav li {
 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
 
+/*
+.container .six.columns {
+	position: relative;
+	width: 450px;
+}
+*/
 
+.cow-nav,
+.pig-nav {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	}
+.pig {
+	padding-top: 12%;
+}
+.pig-nav {
+	padding-top: 57.1%;
+	background-image: url(../img/pigimage.png);
+	
+}
 
+.cow-nav {
+	padding-top: 74.4%;
+	background-image: url(../img/cowimage.png);
+}
 
+.nav ul {
+	list-style-type: none;
+}
 
+.nav li {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	color: #720000;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+}
 
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+	.nav li {
+		font-size: 12px;
+		letter-spacing: .1em;
+	}
+}
 
+@media only screen and (max-width: 479px) {
+	.nav li {
+		font-size: 12px;
+		letter-spacing: .1em;
+	}
+}
 
+.nav-menu {
+	position: absolute;
+	top: 22%;
+	left: 33%;
+}
+
+.nav-directions {
+	position: absolute;
+	top: 38%;
+	left: 32%;
+}
+
+.nav-reservations {
+	position: absolute;
+	top: 51%;
+	left: 34%;
+}
+
+.nav-butchershop {
+	position: absolute;
+	top: 22%;
+	left: 65%;
+}
+
+.nav-hours {
+	position: absolute;
+	top: 6%;
+	left: 44%;
+}
+
+.nav-wineandbeer {
+	position: absolute;
+	top: 24%;
+	left: 37%;
+}
+
+.nav-contact {
+	position: absolute;
+	top: 43%;
+	left: 41%;
+}
+
+.nav-aboutus {
+	-webkit-transform: rotate(81deg);
+		    transform: rotate(81deg);
+		    position: absolute;
+		    top: 28%;
+		    left: 18%;
+}
 
 /* ==========================================================================
    Helper classes
@@ -302,3 +486,4 @@ textarea {
         page-break-after: avoid;
     }
 }
+
